@@ -1,6 +1,6 @@
 {
-  "name": "feature-layer-demo",
-  "label": "feature-layer-demo",
+  "name": "query-and-zoom",
+  "label": "query-and-zoom",
   "type": "widget",
   "version": "1.13.0",
   "exbVersion": "1.13.0",
@@ -8,11 +8,9 @@
   "description": "getting familiar with experience builder custom widgets",
   "copyright": "",
   "license": "",
-  "dependency":["jimu-arcgis"],
+  "dependency": ["jimu-arcgis"],
   "properties": {},
-  "translatedLocales": [
-    "en"
-  ],
+  "translatedLocales": ["en"],
   "defaultSize": {
     "width": 800,
     "height": 500
