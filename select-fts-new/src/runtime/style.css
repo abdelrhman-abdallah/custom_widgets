@@ -1,0 +1,25 @@
+
+.layer-container{
+    list-style-type: none;
+}
+
+.layer-element{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.layer-element:hover{
+    background-color: rgba(141, 179, 174, 0.4);
+}
+
+.field-container{
+    list-style-type: none;
+}
+
+.field-element{
+    list-style-type: none;
+    cursor: pointer;
+}
+.field-element:hover{
+    background-color: rgba(90, 99, 31, 0.4);
+}
