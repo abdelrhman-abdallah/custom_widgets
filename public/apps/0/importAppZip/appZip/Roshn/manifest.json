@@ -1,0 +1,19 @@
+{
+    "name": "Roshn",
+    "label": "Roshn",
+    "type": "theme",
+    "thumbnails ": [],
+    "font": {
+      "fontFamily": "Inter",
+      "color": "#000000"
+    },
+    "version": "1.12.0",
+    "exbVersion": "1.12.0",
+    "author": "",
+    "description": "Roshn Theme.",
+    "copyright": "",
+    "license": "",
+    "translatedLocales": [
+      "en"
+    ]
+  }

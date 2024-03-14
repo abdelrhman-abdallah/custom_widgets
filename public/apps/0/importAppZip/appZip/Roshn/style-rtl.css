@@ -1,0 +1,36 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./your-extensions/themes/Roshn/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  --widget-primary-color: #6B9080;
+  --widget-secondary-color: #A4C3B2;
+  --widget-border-color: #EAF4F4;
+  --widget-background-color: #f6fff8;
+  --widget-button-color: #6B9080;
+  --widget-output-field-backgroud-color: #CCE3DE;
+  --widget-button-background-active: #f6fff8;
+  --widget-button-border-active: #6B9080;
+  --widget-button-active: #000000;
+  --widget-border-radius: 1rem;
+  --widget-border-width: 0.2rem; }
+
+.btn-primary {
+  background-color: var(--widget-button-color);
+  border: 1px solid var(--widget-button-color);
+  color: white; }
+  .btn-primary:hover {
+    color: black;
+    background-color: var(--widget-button-background-active); }
+  .btn-primary.active {
+    background-color: var(--widget-button-background-active);
+    color: black; }
+
+.dropdown-menu--inner > .jimu-dropdown-item:hover {
+  background: var(--widget-primary-color); }
+
+.hidden {
+  display: none; }
+
+span.icon-btn-sizer {
+  color: black; }
+
