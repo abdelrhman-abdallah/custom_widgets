@@ -1,0 +1,39 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./your-extensions/themes/Roshn/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  --widget-primary-color: #6B9080;
+  --widget-secondary-color: #A4C3B2;
+  --widget-border-color: #EAF4F4;
+  --widget-background-color: #f6fff8;
+  --widget-button-color: #6B9080;
+  --widget-output-field-backgroud-color: #CCE3DE;
+  --widget-button-background-active: #f6fff8;
+  --widget-button-border-active: #6B9080;
+  --widget-button-active: #000000;
+  --widget-border-radius: 1rem;
+  --widget-border-width: 0.2rem; 
+}
+
+.btn-primary {
+  background-color: var(--widget-button-color);
+  border: 1px solid var(--widget-button-color);
+  color: white; }
+  .btn-primary:hover {
+    color: black;
+    background-color: var(--widget-button-background-active); }
+  .btn-primary.active {
+    background-color: var(--widget-button-background-active);
+    color: black; }
+
+.dropdown-menu--inner > .jimu-dropdown-item:hover {
+  background: var(--widget-primary-color); }
+
+.hidden {
+  display: none; }
+
+span.icon-btn-sizer {
+  color: black; }
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGhlbWVzL1Jvc2huL3N0eWxlLmNzcyIsIm1hcHBpbmdzIjoiOzs7QUFBQTtFQUNJLCtCQUF1QjtFQUN2QixpQ0FBeUI7RUFDekIsOEJBQXNCO0VBQ3RCLGtDQUEwQjtFQUMxQiw4QkFBc0I7RUFDdEIsOENBQXNDO0VBQ3RDLDBDQUFrQztFQUNsQyxzQ0FBOEI7RUFDOUIsK0JBQXVCO0VBQ3ZCLDRCQUF1QjtFQUN2Qiw2QkFBc0I7O0FBSTFCO0VBQ0ksNENBQTRDO0VBQzVDLDRDQUE0QztFQUM1QyxZQUFZO0VBSGhCO0lBS1EsWUFBWTtJQUNaLHdEQUF3RDtFQU5oRTtJQVVRLHdEQUF3RDtJQUN4RCxZQUFZOztBQUlwQjtFQUNJLHVDQUF1Qzs7QUFHM0M7RUFDSSxhQUFhOztBQUdqQjtFQUNJLFlBQVkiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9leGItY2xpZW50Ly4veW91ci1leHRlbnNpb25zL3RoZW1lcy9Sb3Nobi9zdHlsZS5zY3NzIl0sInNvdXJjZXNDb250ZW50IjpbIjpyb290IHtcclxuICAgIC0td2lkZ2V0LXByaW1hcnktY29sb3I6ICM2QjkwODA7XHJcbiAgICAtLXdpZGdldC1zZWNvbmRhcnktY29sb3I6ICNBNEMzQjI7XHJcbiAgICAtLXdpZGdldC1ib3JkZXItY29sb3I6ICNFQUY0RjQ7XHJcbiAgICAtLXdpZGdldC1iYWNrZ3JvdW5kLWNvbG9yOiAjZjZmZmY4O1xyXG4gICAgLS13aWRnZXQtYnV0dG9uLWNvbG9yOiAjNkI5MDgwO1xyXG4gICAgLS13aWRnZXQtb3V0cHV0LWZpZWxkLWJhY2tncm91ZC1jb2xvcjogI0NDRTNERTtcclxuICAgIC0td2lkZ2V0LWJ1dHRvbi1iYWNrZ3JvdW5kLWFjdGl2ZTogI2Y2ZmZmODtcclxuICAgIC0td2lkZ2V0LWJ1dHRvbi1ib3JkZXItYWN0aXZlOiAjNkI5MDgwO1xyXG4gICAgLS13aWRnZXQtYnV0dG9uLWFjdGl2ZTogIzAwMDAwMDtcclxuICAgIC0td2lkZ2V0LWJvcmRlci1yYWRpdXM6IDFyZW07XHJcbiAgICAtLXdpZGdldC1ib3JkZXItd2lkdGg6IDAuMnJlbTsgXHJcblxyXG59XHJcblxyXG4uYnRuLXByaW1hcnkge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0td2lkZ2V0LWJ1dHRvbi1jb2xvcik7XHJcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS13aWRnZXQtYnV0dG9uLWNvbG9yKTtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgICY6aG92ZXJ7XHJcbiAgICAgICAgY29sb3I6IGJsYWNrO1xyXG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLXdpZGdldC1idXR0b24tYmFja2dyb3VuZC1hY3RpdmUpO1xyXG5cclxuICAgIH1cclxuICAgICYuYWN0aXZlIHtcclxuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS13aWRnZXQtYnV0dG9uLWJhY2tncm91bmQtYWN0aXZlKTtcclxuICAgICAgICBjb2xvcjogYmxhY2s7XHJcbiAgICB9XHJcbn1cclxuXHJcbi5kcm9wZG93bi1tZW51LS1pbm5lciA+IC5qaW11LWRyb3Bkb3duLWl0ZW06aG92ZXIge1xyXG4gICAgYmFja2dyb3VuZDogdmFyKC0td2lkZ2V0LXByaW1hcnktY29sb3IpO1xyXG59XHJcblxyXG4uaGlkZGVuIHtcclxuICAgIGRpc3BsYXk6IG5vbmU7XHJcbn1cclxuXHJcbnNwYW4uaWNvbi1idG4tc2l6ZXJ7XHJcbiAgICBjb2xvcjogYmxhY2s7XHJcbn0iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=*/

@@ -1,0 +1,418 @@
+:root {
+  --widget-primary-color: #6B9080;
+  --widget-secondary-color: #A4C3B2;
+  --widget-border-color: #EAF4F4;
+  --widget-background-color: #ffffff;
+  --widget-button-color: #C3CFDF;
+  --widget-output-field-backgroud-color: #CCE3DE;
+  --widget-button-background-active: #4C7492;
+  --widget-button-border-active: #6B9080;
+  --widget-button-active: #000000;
+  --widget-border-radius: 1rem;
+  --widget-border-width: 0.2rem;
+  --primary-600: #34465C;
+}
+
+.list-card-content {
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+
+  &:hover {
+    color: white;
+    background-color: #34465C;
+
+  }
+
+  &.active {
+    color: white;
+    background-color: #34465C;
+  }
+}
+
+.btn-primary {
+  background-color: var(--widget-button-color);
+  border: 1px solid var(--widget-button-color);
+  color: white;
+
+  &:hover {
+    color: black;
+    background-color: var(--widget-button-background-active);
+
+  }
+
+  &.active {
+    background-color: var(--widget-button-background-active);
+    color: black;
+  }
+}
+
+//***Buttons inside widgets styling***//
+.confirmation-button {
+  background-color: #C3CFDF;
+  border-radius: 6px;
+  text-align: center;
+  // border: 2px solid var(--widget-primary-color);
+  border-color: transparent;
+  margin-bottom: 5px;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  color: var(--primary-600);
+
+  &:hover {
+    color: white;
+    background-color: var(--widget-button-background-active);
+
+  }
+
+  &.active {
+    background-color: var(--widget-button-background-active);
+    color: white;
+  }
+}
+
+.confirmation-box {
+  background-color: var(--widget-primary-color);
+  border-radius: var(--widget-border-radius);
+  border: 2px solid var(--widget-primary-color);
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.yes-button {
+  background-color: #3D5183;
+  border-radius: 8px;
+  border: 1px solid black;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  width: 99px;
+  height: 44px;
+  color: white;
+  font-size: 16px;
+  font-family: 'InterSBold';
+
+  &:hover {
+    color: white;
+    background-color: var(--widget-button-background-active);
+
+  }
+
+  &.active {
+    background-color: var(--widget-button-background-active);
+    color: white;
+  }
+}
+
+.no-button {
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  width: 99px;
+  height: 44px;
+  color: #344054;
+  font-size: 16px;
+  font-family: 'InterSBold';
+
+  &:hover {
+    color: white;
+    background-color: var(--widget-button-background-active);
+
+  }
+
+  &.active {
+    background-color: var(--widget-button-background-active);
+    color: white;
+  }
+}
+
+.process-button-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+}
+
+.confirmation-button-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.split-merge-dropdown {
+  border-radius: 6px;
+  color: #1F2937;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  width: 271px;
+  height: 40px;
+}
+
+// .dropdown {
+//   background-color: white;
+//   border:solid 1px #C9D0E3;
+//   border-radius: 6px;
+//   color: #1F2937;
+//   width: 271px;
+//   height: 40px;
+// }
+.dropdown-menu--inner>.jimu-dropdown-item:hover {
+  background: var(--widget-button-background-active);
+}
+
+//***Buttons inside widgets styling***//
+
+//***Feature Edit input form***//
+.jimu-widget-editing {
+  background-color: transparent;
+  --edit-button-color: #dd7b0c;
+  --edit-primary-color: white;
+  --edit-secondary-color: white;
+  --edit-border: #EAF4F4;
+  --edit-background-color: #f6fff8;
+  --edit-button-background: #CCE3DE;
+  --edit-border-radius: 1rem;
+  --calcite-ui-border-input: transparent !important;
+  --calcite-ui-focus-color: --light-100;
+
+  --calcite-ui-brand: transparent !important;
+  --calcite-ui-foreground-1: white;
+  background: transparent;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: scroll;
+
+
+
+
+
+  #featureForm {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: var(--edit-border-radius);
+    background: #f5f5f5;
+  }
+
+
+
+
+
+  .esri-feature-form__form-header {
+    margin: 0;
+  }
+
+  .center {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+input.esri-input.esri-feature-form__input {
+  height: 40px;
+  line-height: 1rem;
+  vertical-align: middle;
+  background-color: white;
+  border: 1px solid #C9D0E3;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  color: #1F2937;
+}
+
+calcite-input.esri-feature-form__input {
+  background-color: white;
+  border: 1px solid #C9D0E3;
+  padding: 0 0.6rem;
+  border-radius: 6px;
+  min-height: 2rem;
+  box-sizing: border-box;
+  color: #1F2937;
+}
+
+.esri-feature-form__form {
+  background-color: transparent;
+  --edit-button-color: white;
+  --edit-primary-color: white;
+  --edit-secondary-color: white;
+  --edit-border: #EAF4F4;
+  --edit-background-color: #f6fff8;
+  --edit-button-background: #CCE3DE;
+  --edit-border-radius: 1rem;
+  color: #1F2937;
+}
+
+
+
+calcite-combobox.esri-feature-form__input {
+  background-color: white;
+  border: 1px solid #C9D0E3;
+  padding: 0 0.6rem;
+  border-radius: 6px;
+  min-height: 2rem;
+  box-sizing: border-box;
+}
+
+.jimu-widget-editing #featureForm {
+  background-color: white;
+}
+
+//***Feature Edit input form***//
+
+.hidden {
+  display: none;
+}
+
+.nav-link {
+  padding: 0 !important;
+}
+
+.link-button>* {
+  pointer-events: none;
+}
+
+.nav-icon {
+  margin-right: 0 !important;
+}
+
+.hidden {
+  display: none;
+}
+
+// *** Navigation Menu Styling *** //
+.nav-button-group {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.avatar-card {
+  padding: 0px;
+
+}
+
+.app-root-emotion-cache-ltr-mr96t7 .avatar-card:not(.add-widget-btn)>.avatar>.avatar-button {
+  background-color: white;
+  border-color: white;
+  color: #34465C;
+}
+
+.app-root-emotion-cache-ltr-eeyrnh .avatar {
+  padding: 0px;
+
+}
+
+.app-root-emotion-cache-ltr-eeyrnh {
+  width: auto !important;
+  height: auto;
+}
+
+body .esri-widget--button {
+  color: #34465C;
+  background-color: white;
+  border-radius: 24px;
+}
+
+body .exbmap-ui-tool-shell {
+  border-radius: 24px;
+}
+
+body .exbmap-ui-tool .exbmap-ui-tool-icon-selected,
+body .exbmap-ui-tool-panel .exbmap-ui-tool-icon-selected,
+body .exbmap-ui-tool .exbmap-ui-tool-icon-selected:hover,
+body .exbmap-ui-tool-panel .exbmap-ui-tool-icon-selected:hover {
+  background-color: #34465C;
+}
+
+.app-root-emotion-cache-ltr-mr96t7 .avatar-card:not(.add-widget-btn)>.avatar>.avatar-button:not(:disabled):not(.disabled):active,
+.app-root-emotion-cache-ltr-mr96t7 .avatar-card:not(.add-widget-btn)>.avatar>.avatar-button:not(:disabled):not(.disabled).active,
+.app-root-emotion-cache-ltr-mr96t7 .avatar-card:not(.add-widget-btn)>.avatar>.avatar-button[aria-expanded="true"] {
+  background-color: #34465C;
+  color: white
+}
+
+.app-root-emotion-cache-ltr-mr96t7 .avatar-card:not(.add-widget-btn)>.avatar>.avatar-button:not(:disabled):not(.disabled):hover,
+.app-root-emotion-cache-ltr-mr96t7 .avatar-card:not(.add-widget-btn)>.avatar>.avatar-button:not(:disabled):not(.disabled).hover,
+.app-root-emotion-cache-ltr-mr96t7 .avatar-card:not(.add-widget-btn)>.avatar>.avatar-button[aria-expanded="true"] {
+  background-color: #34465C;
+  color: white;
+}
+
+
+.esri-zoom {
+  border-radius: 24px;
+}
+
+// *** Navigation Menu Styling *** //
+
+.alert-panel {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  
+  word-break: break-word;
+  background-color: #F9FAFB;
+  box-sizing: border-box;
+}
+
+.roshnButton {
+  
+    background-color: #34465C !important;
+    color: white;
+    font-family: "InterSBold";
+    border-radius: 4px;
+
+}
+
+
+
+
+.widget-text {
+  font-family: "InterSBold";
+  color: #00BBAA;
+}
+
+
+
+@font-face {
+  font-family: "FSAlbertBold";
+  src: url("./assets/fonts/FSAlbert/FS\ Albert\ Arabic\ Web\ Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FSAlbertReg";
+  src: url("./assets/fonts/FSAlbertReg/FSAlbertArabicWeb.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter/Inter-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "InterSBold";
+  src: url("./assets/fonts/Inter/Inter-SemiBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
