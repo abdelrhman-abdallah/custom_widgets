@@ -1,0 +1,133 @@
+.nav-link {
+  padding: 0 !important;
+}
+
+.link-button > * {
+  pointer-events: none;
+}
+
+.srch-button > * {
+  pointer-events: none;
+}
+
+.nav-icon {
+  margin-right: 0 !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.hover-text {
+  
+  flex-grow: 1;
+  text-align: left;
+}
+
+.link-button {
+
+  background: none;
+  /* Remove default background */
+  border: none;
+  /* Remove default border */
+  padding: 1rem;
+  /* Remove default padding */
+  margin: 0;
+  /* Adjust margin as needed */
+  color: inherit;
+  /* Inherit text color from parent */
+  font-size: 16px;
+  /* Inherit font from parent */
+  cursor: pointer;
+  /* Change cursor to pointer */
+  display: flex;
+  /* To align icon and text */
+  align-items: center;
+  /* Center items vertically */
+  justify-content: center;
+  /* Align items to the left */
+  gap: 1rem;
+  min-height: 3rem;
+  max-height: 3rem;
+  width: 100%;
+  height: 100%;
+  
+
+  &:hover {
+    background-color: #4C7492;
+    color: white;
+  }
+
+  &.active {
+    color: white;
+    border-left: 2px solid #C9D0E3;
+  }
+
+  &.active>* {
+    color: white;
+  }
+}
+
+.srch-button {
+  background: none;
+  /* Remove default background */
+  border: none;
+  /* Remove default border */
+  padding: 1rem;
+  /* Remove default padding */
+  margin: 0;
+  /* Adjust margin as needed */
+  color: inherit;
+  /* Inherit text color from parent */
+  font-size: 16px;
+  cursor: pointer;
+  /* Change cursor to pointer */
+  display: flex;
+  /* To align icon and text */
+  align-items: center;
+  /* Center items vertically */
+  justify-content: center;
+  /* Align items to the left */
+  gap: 1rem;
+  min-height: 3rem;
+  max-height: 3rem;
+  width: 100%;
+  height: 100%;
+  
+
+  &:hover {
+    
+    color: white;
+  }
+
+  &.active {
+    color: white;
+    
+  }
+
+  &.active>* {
+    color: white;
+  }
+}
+
+.nav-link .link-button {
+  display: flex;
+  align-items: center;
+  color: white;
+
+}
+
+.nav-link .link-button {
+  display: flex;
+  align-items: center;
+  color: white;
+
+}
+
+.nav-link .srch-button {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #acaccf;
+}

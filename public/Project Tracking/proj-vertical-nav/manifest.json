@@ -1,0 +1,22 @@
+{
+  "name": "proj-vertical-nav",
+  "label": "PT Vertical Nav",
+  "type": "widget",
+  "version": "1.11.0",
+  "exbVersion": "1.11.0",
+  "author": "Esri R&D Center Beijing",
+  "description": "Widget to switch between map views.",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": { 
+    "myJsonData": {
+      "type": "array"
+    }},
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 400,
+    "height": 200
+  }
+}

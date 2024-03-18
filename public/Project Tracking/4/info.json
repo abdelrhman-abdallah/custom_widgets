@@ -1,0 +1,22 @@
+{
+  "created": 1709295507628,
+  "description": "",
+  "id": "4",
+  "modified": 1710516437275,
+  "owner": "portaladmin",
+  "tags": [],
+  "thumbnail": null,
+  "title": "Projects Tracking",
+  "type": "Web Experience",
+  "snippet": "",
+  "typeKeywords": [
+    "EXB Experience",
+    "Ready To Use",
+    "JavaScript",
+    "status: Draft",
+    "version:1.13.0",
+    "publishVersion:1.12.0"
+  ],
+  "portalUrl": "https://dc-gisweb.dar.com/arcgis",
+  "username": "portaladmin"
+}

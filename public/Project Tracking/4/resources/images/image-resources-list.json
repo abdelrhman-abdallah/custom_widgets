@@ -1,0 +1,58 @@
+{
+  "1704007787122": {
+    "originalName": "ROSHN WHITE LOGO.png",
+    "fileName": "1704007787122.png",
+    "size": 28040,
+    "url": "${appResourceUrl}/images/widget_39/1704007787122.png",
+    "created": 1704007787122,
+    "resourcesPrefix": "images/widget_39",
+    "referedIds": [],
+    "originId": "1704007787122",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 1472,
+    "originalHeight": 544
+  },
+  "1707305826666": {
+    "originalName": "ROSHN_MAPS.png",
+    "fileName": "1707305826666.png",
+    "size": 3054,
+    "url": "${appResourceUrl}/images/widget_55/1707305826666.png",
+    "created": 1707305826666,
+    "resourcesPrefix": "images/widget_55",
+    "referedIds": [],
+    "originId": "1707305826666",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 133,
+    "originalHeight": 75
+  },
+  "1707306163914": {
+    "originalName": "location.png",
+    "fileName": "1707306163914.png",
+    "size": 1179,
+    "url": "${appResourceUrl}/images/widget_90/1707306163914.png",
+    "created": 1707306163914,
+    "resourcesPrefix": "images/widget_90",
+    "referedIds": [],
+    "originId": "1707306163914",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 50,
+    "originalHeight": 71
+  },
+  "1707309762074": {
+    "originalName": "Roshn_logo_color.png",
+    "fileName": "1707309762074.png",
+    "size": 2942,
+    "url": "${appResourceUrl}/images/widget_93/1707309762074.png",
+    "created": 1707309762074,
+    "resourcesPrefix": "images/widget_93",
+    "referedIds": [],
+    "originId": "1707309762074",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 96,
+    "originalHeight": 100
+  }
+}
